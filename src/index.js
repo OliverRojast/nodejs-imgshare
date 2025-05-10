@@ -5,5 +5,5 @@ import { PORT } from "./config";
 import "./config/mongoose";
 
 // Starting the server
-app.listen(PORT);
-console.log("Server on port", app.get("port"));
+app.listen(3000);
+console.log("Server on por", 3000);

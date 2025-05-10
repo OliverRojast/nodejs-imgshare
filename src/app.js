@@ -7,6 +7,7 @@ import exphbs from "express-handlebars";
 import flash from "connect-flash";
 import session from "express-session";
 import passport from "passport";
+import { PORT } from "./config";
 import "./config/passport";
 
 import indexRoutes from "./routes/index.routes";
